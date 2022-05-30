@@ -31,6 +31,7 @@ This method works by converting the first 4 characters into new encrypted passwo
 If the withpunc boolean is True, there will be "-" character added in the end of the ecrypted password.
 
 <h3>decrypt()</h3>
+
 The method is used to convert encrypted password into normal text.
 This method requires one parameters, which is the encrypted password that will be decrypted
 To use this method properly, the dictionary that generated before is required and placed into passdict as a dict that will be used as a encryption dictionary.
